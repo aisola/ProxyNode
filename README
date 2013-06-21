@@ -1,0 +1,29 @@
+ProxyNode is a simple HTTP Proxy that has few out-of-the-box features.
+
+------------------------------------------------------------------------------
+
+You'll need Node.JS installed to run it. Get it at www.nodejs.org, then 
+compile and install:
+
+    $ ./configure
+    $ make && make install
+
+Then simply run the script.
+
+    $ node ProxyNode.js
+
+You can blacklist host by a regex pattern. Simply put any host's
+name into the .blacklist file inside of the proxy directory:
+
+    $ echo 'example.com' >> ./.blacklist
+
+There may be more features to come, however, it is an open source project! So,
+if you are so inclined to, please do contribute. It is much appreciated.
+
+------------------------------------------------------------------------------
+
+Regards,
+Abram C. Isola
+http://abram.isola.mn/
+abram@isola.mn
+
